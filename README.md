@@ -1,24 +1,28 @@
-# webpack-babel-boilerplate
-ES6 with polyfill for async await, Webpack, dev server with hot-module-reloading. Spicy 🔥
+# Preact-Redux-Boilerplate
+Preact Redux Boilerplate
+With Babel, Jest, Webpack, dev server with hot-module-reloading.
 
 ## Install
 ```
-git clone https://github.com/sweetcoco/webpack-babel-boilerplate.git your-app # change your-app to the name of your project
-cd your-app
+git clone https://github.com/TobbeLino/Preact-Redux-Boilerplate.git <your-project-name>
+cd <your-project-name>
 git remote remove origin
-# edit the package.json, then continue on
+# edit package.json
 npm install
-npm run dev
+npm run start
 ```
 
-## Build for prod
+## Build for dev and run
+```
+npm run start
+```
+
+## Build for production
 ```
 npm run build
 ```
 
-## Quick Note
-This boilerplate assumes your app code lives in /src.
-
-/src contains some sample code to show es6 features. 
-
-[Click here for further documentation.](https://medium.com/@coreyhowell/webpack-babel-boilerplate-84f720511b32)
+## Run production build
+```
+npm run serve-build
+```
